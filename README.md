@@ -106,6 +106,38 @@ Regras:
   nada relacionado à pergunta.
 - Responda em português brasileiro.
 ```
+## 🧪 Modelo de Teste — Sprint 2
+
+**Persona:** Técnico de Campo | **Contexto:** Documentação e perguntas feitas pelo usuário
+
+A grande mudança dessa sprint foi a adição do sistema de input, onde nossa IA se transforma em um chatbot real. A partir de agora o usuário consegue digitar a sua pergunta e o chat bot GoodWe responderá de acordo com o conhecimento adquirido a partir dos documentos acessados por ele.
+
+| # | Pergunta | Resposta Esperada |
+|---|---|---|
+| 1 | Olá chat, me conte o que você sabe sobre o challenge da goodwe. |O EV Challenge 2026 da GoodWe é um evento que busca transformar dados em inteligência, energia em estratégia e ideias em soluções reais. O desafio é promovido pela GoodWe e está relacionado à mobilidade elétrica, com foco em orquestrar o futuro dessa área utilizando dados, IoT (Internet das Coisas) e inteligência artificial.|
+| 2 |O que impede que os pagamentos sejam feitos de forma automática nos carregadores da goodwe | Os carregadores da linha HCA G2 da GoodWe não possuem um modelo padrão de cobrança e não oferecem suporte a plataformas terceiras de billing/pagamento. Portanto, não há suporte a sistemas de pagamento integrado para essa linha. Essa informação pode ser encontrada na seção "Pagamento e Modelo Comercial" do protocolo técnico |
+| 3 |E como podemos resolver esse problema?| 1. **Desenvolvimento de uma Plataforma de Billing Interna**: Criar um sistema de cobrança próprio que possa ser integrado aos carregadores HCA G2. Isso incluiria o desenvolvimento de um gateway de pagamento que permita a autenticação e liberação das recargas.
+
+2. **Parcerias com Provedores de Pagamento**: Estabelecer parcerias com empresas que oferecem soluções de pagamento e billing, permitindo que os carregadores se conectem a essas plataformas de forma personalizada, mesmo que não haja suporte nativo.
+
+3. **Modelo de Cobrança Flexível**: Implementar um modelo de cobrança que permita a divisão de receita entre os usuários e o condomínio, facilitando a gestão dos custos de energia e a cobrança automática por unidade habitacional.
+
+4. **Gerenciamento Inteligente de Demanda**: Integrar um sistema de gerenciamento que otimize a demanda de potência e permita a cobrança baseada no consumo individual, garantindo que cada unidade habitacional pague apenas pelo que consome.
+
+5. **Interface de Usuário**: Desenvolver uma interface amigável para os usuários e para a gestão do condomínio, permitindo que os usuários visualizem seu consumo e realizem pagamentos de forma simples e eficiente. |
+   
+| 4 | Resuma a resposta anterior |  Um resumo das possíveis soluções para resolver a ausência de um modelo padrão de cobrança nos carregadores HCA G2 da GoodWe inclui:
+
+1. **Desenvolvimento de uma Plataforma de Billing Interna**: Criar um sistema de cobrança próprio que integre um gateway de pagamento para autenticação e liberação das recargas.
+
+2. **Parcerias com Provedores de Pagamento**: Estabelecer colaborações com empresas que oferecem soluções de pagamento, permitindo a conexão personalizada com as plataformas de billing.
+
+3. **Modelo de Cobrança Flexível**: Implementar um modelo que possibilite a divisão de receita entre usuários e condomínios, facilitando a gestão dos custos de energia.
+
+4. **Gerenciamento Inteligente de Demanda**: Integrar um sistema que otimize a demanda de potência e permita a cobrança baseada no consumo individual.
+
+5. **Interface de Usuário**: Desenvolver uma interface amigável para que os usuários visualizem seu consumo e realizem pagamentos de forma eficiente. |
+
 
 ---
 
