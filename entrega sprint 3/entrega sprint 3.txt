@@ -1,0 +1,9 @@
+Turma 1CCPO
+
+Integrantes: 
+Gustavo Melo - RM573562
+João Pedro Costenari - RM572260
+João Victor Canello Ferian - RM573295
+Lucas Klein da Veiga - Rm570029
+
+Github - https://github.com/joaovictorferian/chat-bot-goodwe-files/tree/main
